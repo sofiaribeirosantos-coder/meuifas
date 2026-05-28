@@ -138,7 +138,7 @@
 
 
 
-
+    
 /* Estilos aplicados apenas quando estiver em tela cheia */
 #carrossel-fullscreen:fullscreen {
   background-color: #000; /* Fundo preto para destacar as imagens */
@@ -160,56 +160,31 @@
   object-fit: contain; /* Garante que a imagem não distorça na tela cheia */
 }
 
-
-
-
-.carrossel {
-    position: relative;
-    /* Melhora a estilização quando estiver em tela cheia */
-    background-color: white; 
-    padding: 2rem;
-}
-
-/* Garante que o carrossel se ajuste perfeitamente ao tamanho da tela */
-.carrossel:fullscreen {
-    width: 100vw;
-    height: 100vh;
-    overflow-y: auto; /* Permite rolar a página se o conteúdo for maior que a tela */
-    background-color: white; /* Altere para a cor desejada */
-}
-
 #btn-fullscreen {
-    cursor: pointer;
-    padding: 10px 20px;
-    margin-bottom: 15px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
+  background-color: darkred; /* Cor de fundo */
+  color: white; /* Cor do texto */
+  padding: 2px 2px; /* Espaçamento interno */
+  font-size: 14px; /* Tamanho do texto */
+  font-weight: bold; /* Espessura da fonte */
+  border: none; /* Remove a borda padrão */
+  border-radius: 8px; /* Arredonda os cantos */
+  cursor: pointer; /* Mostra o ícone de mãozinha ao passar o mouse */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Transição suave */
 }
 
-
-
-
-
-
-
-
-
-
-.carrossel:fullscreen {
-    background-color: #000;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 20px;
-    overflow-y: auto;
+/* Efeito ao passar o mouse */
+#btn-fullscreen:hover {
+  background-color: #45a049; /* Cor um pouco mais escura */
+  transform: scale(1.05); /* Efeito leve de aumento */
 }
 
-.carrossel__topo {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
+/* Efeito ao clicar */
+#btn-fullscreen:active {
+  transform: scale(0.98); /* Efeito de afundamento */
 }
 
+/* Foco para acessibilidade */
+#btn-fullscreen:focus-visible {
+  outline: 3px dashed #ffffff;
+  outline-offset: 2px;
+}
