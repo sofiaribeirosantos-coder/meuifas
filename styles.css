@@ -28,7 +28,7 @@ body, html {
 
 .titulo-digitando {
     font-family: monospace;
-    font-size: 80vw;
+    font-size: 16vw;
     color: var(--vermelho); 
     overflow: hidden;
     white-space: nowrap;
