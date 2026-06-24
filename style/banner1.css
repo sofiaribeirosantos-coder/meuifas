@@ -1,6 +1,6 @@
 .banner { 
     background-color: lightgray; 
-    color: var(--branco); 
+    color: var(--azul); 
     text-align: center; 
     padding: 1em 2em; /* Reduzido de 2.5em para 1em */
 } 
@@ -17,8 +17,8 @@
 
 .banner__pesquisa { 
     background-color: transparent; 
-    border: 1px solid var(--branco); 
-    color: var(--branco); 
+    border: 1px solid var(--azu); 
+    color: var(--azul); 
     border-radius: 24px; 
     padding: 1em; 
     width: 100%; 
