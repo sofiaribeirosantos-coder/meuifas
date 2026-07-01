@@ -8,7 +8,7 @@
 :root {
     --cor-de-fundo: #EBECEE;
     --branco: #FFFFFF;
-    --vermelho: darkred;
+    --azul: darkblue;
     --laranja: #8b0000;
     --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --fonte-principal: "Poppins";
@@ -29,7 +29,7 @@ body, html {
 .titulo-digitando {
     font-family: monospace;
     font-size: 5vw;
-    color: var(--vermelho); 
+    color: var(--azul); 
     overflow: hidden;
     white-space: nowrap;
     border-right: px solid;
